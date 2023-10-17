@@ -248,6 +248,16 @@ section:nth-child(even){
     text-align: justify;
 }
 
+/* .home .container .row .col-sm a{
+    position: relative; 
+    font-size: 15px;
+    background-color: #C48154;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 40px;
+    left: -200px;
+} */
+
 .home .container .row .col-sm .batik img
 {
     position: relative;

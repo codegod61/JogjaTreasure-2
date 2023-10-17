@@ -1,0 +1,22 @@
+
+  .navbar {
+    background-color: #884b39;
+  }
+  
+  #blog {
+    font-family: "inter", sans-serif;
+    text-align: justify;
+    color: #c48154;
+    background-color: #f9dfba;
+    padding-top: 100px;
+  }
+  
+  footer {
+    padding: 20px;
+    background-color: #884b39;
+    color: #ffffff;
+  }
+  
+  footer .judul {
+    color: #ffc26f;
+  }

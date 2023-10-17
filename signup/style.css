@@ -1,0 +1,40 @@
+body {
+  background-image: url(img/bglogin.png);
+  background-size: cover;
+  padding-top: 50px;
+  position: center;
+}
+
+button {
+  width: 200px;
+  height: 60px;
+  background: linear-gradient(269.45deg, #c48154 18.78%, #c48154 108.96%);
+}
+
+#login {
+  font-family: "inter", sans-serif;
+}
+
+.hallo p {
+  padding-left: 100px;
+
+  color: aliceblue;
+}
+.hallo p:nth-child(1) {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+}
+
+.judul {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  position: center;
+  font-size: 50px;
+  color: #c48154;
+}
+
+.sosmed {
+}
+
+.logososmed {
+  width: 50px;
+}
