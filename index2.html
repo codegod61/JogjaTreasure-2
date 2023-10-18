@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,37 +28,195 @@
 <!-- <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="c6c8b631-c25b-41e7-8fa6-6b1cd43c9e8b";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script> -->
 </head>
 <body>
-    
-<!-- header section starts  -->
 
+  
+<!-- header section starts  -->
 <header class="header">    
-  <a href="#home"><img src="img/logo.png" alt=""> </a><a href="" style="margin-left: -320px; color: #F9DFBA; margin-top: 35px;"  class="logo">Jogja Treasure</a>
+  <a href="#home"><img src="img/logo.png" style="width: 80px; height: 80px; margin-top: 5px; margin-bottom: 5px; margin-left:50px;" alt=""> 
+  </a><a href="#home" style="margin-left: -300px; color: #F9DFBA; margin-top: 5px; margin-bottom: 5px;"  class="logo">Jogja Treasure</a>
 
    <nav class="navbar">
 
-    <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form> 
-       <a href="#home">Home</a>
-       <!-- <a href="product/kuliner.html">Product</a> -->
-       <a href="about/about.html">About</a>
-       <a href="#BLOG">Blogs</a>
+    <!-- <div class="container text-center">
+      <div class="row row-cols-2">
+        <div class="col">
+          <a href="#home"><img src="img/logo.png"  alt=""> </a><a href="" style="margin-left: -180px; color: #F9DFBA; margin-top: 35px;"  class="logo">Jogja Treasure</a>
+
+        </div>
+        <div class="col">
+          <a href="#home">Home</a>
+          <a href="about/about.html">About</a>
+          <a href="#contact">Contact</a>
+          <a href="login/login.html">Login</a>
+          <a href="signup/signup.html">Register</a>
+        </div>
+      </div>
+    </div> -->
+        <a href="#home">Home</a>
+       <a href="about/about.html">About</a> 
        <a href="#contact">Contact</a>
        <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn btn-secondary dropdown-toggle me-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           Product
         </button>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Kuliner</a></li>
-          <li><a class="dropdown-item" href="#">Batik</a></li>
+          <li><a class="dropdown-item" href="product/kuliner.html">Kuliner</a></li>
+          <li><a class="dropdown-item" href="product/batik.html">Batik</a></li>
           <li><a class="dropdown-item" href="#">Kerajinan Tangan</a></li>
         </ul>
       </div>
-       <a href="login/login.html">Login</a>
-       <a href="signup/signup.html">Register</a> 
-   </nav>
+      <form class="d-flex" role="search" style="margin-right: 10px;">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit"> <img src="img/Asset 2@4x.png" width="30px" alt=""></button>
+      </form> 
+       <a href="login/login.html" >Login</a>
+        <a href="signup/signup.html">Register</a> 
+       </nav> 
 
-   <div id="menu-btn" class="fas fa-bars"></div>
+   <div id="menu-btn" class="fas fa-bars"></div> 
 
 </header>
+<!-- Header Ends -->
+
+<!-- Home Starts -->
+<div class="home" id="home">
+
+  <img src="img/home_page4.png" alt="">
+
+  <div class="container text-center">
+    <div class="row row-cols-2">
+      <div class="col">
+        <h1>
+          Bingung mau cari oleh-oleh khas jogja?
+        </h1>
+        <h3>Jogja <br> Treasure</h3>
+        <a href="#" class="btn"> Selengkapnya </a>
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+
+</div>
+<!-- Home End -->
+
+<!-- Description Website Starts -->
+<div class="desc-home" id="desc-home">
+
+  <div class="container text-center">
+    <div class="row row-cols-2">
+      <div class="col">
+        <img src="img/Desc_home.png" alt="">
+      </div>
+      <div class="col">
+        <h3>
+          JOGJA TREASURE
+        </h3>
+        <h4>
+          Kota Yogyakarta, atau sering disebut Jogja, 
+merupakan salah satu destinasi wisata populer di Indonesia. 
+Di samping keindahan tempat wisata dan budaya yang kaya,
+ Jogja juga terkenal dengan Usaha Mikro, Kecil,
+ dan Menengah (UMKM) serta oleh-olehnya.
+        </h4>
+        <a href="#" class="btn"> Selengkapnya </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- Description Website End -->
+
+<div class="exam-product pb-5 pt-5" id="exam-product">
+
+  <div class="border">
+    
+  </div>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <img src="img/Ellipse 1.png" alt="" width="350px">
+        <h3>Kuliner</h3>
+        <h4>UMKM di Jogja juga mencakup bisnis kuliner. Makanan khas seperti gudeg, bakpia, dan wedang ronde diproduksi oleh UMKM lokal dan dijual sebagai oleh-oleh</h4>
+        <a href="product/kuliner.html" class="btn mb-5 mt-5"> Selengkapnya </a>
+      </div>
+      <div class="col">
+        <img src="img/Ellipse 2.png" alt="" width="350px">
+        <h3>Kerajinan Tangan</h3>
+        <h4>Jogja juga terkenal dengan kerajinan tangan seperti wayang kulit, perak, dan ukiran kayu. UMKM lokal memproduksi barang-barang ini dengan keterampilan dan keahlian tinggi</h4>
+        <a href="#" class="btn mb-5 mt-5"> Selengkapnya </a>
+      </div>
+      <div class="col">
+        <img src="img/Ellipse 3.png" alt="" width="350px">
+        <h3>Batik</h3>
+        <h4>Jogja terkenal dengan industri batiknya. Banyak pengrajin batik yang memproduksi dengan desain tradisional dan modern. Menghasilkan karya seni dengan teknik dan motif yang khas.</h4>
+        <a href="product/batik.html" class="btn mb-5 mt-5"> Selengkapnya </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="form-contact pb-5 pt-5" id="contact">
+
+  <h1 class="mt-5 mb-5">CONTACT US</h1>
+
+  <div class="container text-center">
+    <div class="row row-cols-2">
+        <div class="col-md-6">
+          <label for="FirstName" class="form-label" ></label>
+          <input type="text" class="form-control" id="inputEmail4" placeholder="First Name" style="background-color: #D9D9D9;" >
+      </div>
+        <div class="col-md-6">
+          <label for="LastName" class="form-label"></label>
+          <input type="text" class="form-control" id="inputPassword4" placeholder="Last Name" style="background-color: #D9D9D9;">
+        </div>
+        <div class="col-md-6">
+          <label for="Email" class="form-label"></label>
+          <input type="text" class="form-control" id="inputEmail4" placeholder="Email" style="background-color: #D9D9D9;">
+        </div>
+        <div class="col-md-6">
+          <label for="PhoneNumber" class="form-label"></label>
+          <input type="number" class="form-control" id="inputEmail4" placeholder="Phone Number" style="background-color: #D9D9D9;">
+        </div>
+    </div>
+    <div class="form-floating mt-3">
+      <textarea class="form-control" placeholder="Your Message" id="floatingTextarea2" style="height: 100px; background-color: #D9D9D9;"></textarea>
+      <label for="floatingTextarea2">Your Message</label>
+    </div>
+    <button class="btn mb-5 mt-5">
+      SUBMIT
+    </button>
+  </div>
+
+</div>
+
+<div class="footer">
+
+  <div class="container text-center">
+    <div class="row row-cols-2">
+      <div class="col mt-5">
+        <h3>JOGJA TREASURE</h3>
+      </div>
+      <div class="col mt-5">
+        <a href=""> <i class="fa fa-map-marker"></i> Yogyakarta, Kota Yogyakarta, Daerah Istimewa Yogyakarta</a>
+      </div>
+      <div class="col">
+        <h4>
+          Dengan setiap produk, kami bawa kepingan Jogja ke dalam hidup anda.
+        </h4>
+      </div>
+      <div class="col">
+        <div class="social-icons mt-5">
+        <a href="" class="me-3"> <i class="fa fa-whatsapp" ></i></a>
+        <a href="" class="me-3"> <i class="fa fa-facebook"></i></a>
+        <a href="" class="me-3"> <i class="fa fa-instagram"></i></a>
+        <a href="" class="me-3"> <i class="fa fa-youtube-play"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
