@@ -1,40 +1,41 @@
 body {
   background-image: url(img/bglogin.png);
   background-size: cover;
-  padding-top: 50px;
+  padding-top: 20px;
   position: center;
 }
 
-button {
-  width: 200px;
-  height: 60px;
-  background: linear-gradient(269.45deg, #c48154 18.78%, #c48154 108.96%);
+h1 {
+  color: #c48154;
+  font-family: "Poppins";
+  font-weight: 900;
 }
 
-#login {
-  font-family: "inter", sans-serif;
+.btn {
+  background-color: #c48154;
+  color: #fff;
+  width: 100px;
 }
 
-.hallo p {
-  padding-left: 100px;
-
-  color: aliceblue;
-}
-.hallo p:nth-child(1) {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: 50px;
+.bi {
+  color: #c48154;
+  font-size: 30px;
+  padding-left: 20px;
 }
 
-.judul {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  position: center;
-  font-size: 50px;
+a {
   color: #c48154;
 }
-
-.sosmed {
+.hallo {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 800;
+  padding-top: 150px;
+  position: center;
 }
 
-.logososmed {
-  width: 50px;
+.tag {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
 }
