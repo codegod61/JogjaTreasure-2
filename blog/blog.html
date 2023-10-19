@@ -10,54 +10,63 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>Bakpia</title>
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href=" "><img src="img/logo.png" width="50PX" style="padding-right: 10px" />JOGJA TREASURE</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link " href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#contact">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Blog">Contact</a>
-            </li>
-            <div class="container">
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                <button class="btn" type="submit"><i class="bi bi-search"></i></button>
-              </form>
-            </div>
-            <div>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="../login/login.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="bi bi-person-circle" width="100px"></i>
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Login</a></li>
-                  <li><a class="dropdown-item" href="#">Register</a></li>
-                  
-                </ul>
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="../index2.html"><img src="../img/logo.png" width="50PX" style="padding-right: 10px" />JOGJA TREASURE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link " href="../index.html">Home</a>
               </li>
-              
-            </div>
-          </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="../about/about.html">About</a>
+              </li>
+              <div class="dropdown ms-1 ">
+                <button class="btn btn-secondary dropdown-toggle me-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Product
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Kuliner</a></li>
+                  <li><a class="dropdown-item" href="batik.html">Batik</a></li>
+                  <li><a class="dropdown-item" href="../kerajinan/kerajinan.html">Kerajinan Tangan</a></li>
+                </ul>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="../index2.html#contact">Contact</a>
+              </li>
+              <div class="container">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                  <button class="btn"  type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div>
+              <div>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-person-circle" width="100px"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../login/login.html">Login</a></li>
+                    <li><a class="dropdown-item" href="../signup/signup.html">Register</a></li>
+                    
+                  </ul>
+                </li>
+                
+              </div>
+            </ul>
+          </div>
         </div>
+      </nav>
       </div>
-    </nav>
 
 
 

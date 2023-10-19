@@ -1,301 +1,454 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogja Treasure</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="icon" href="../img/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/kuliner.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-    <!-- font awesome cdn link  -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="../css/kuliner.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    
-<!-- <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="c6c8b631-c25b-41e7-8fa6-6b1cd43c9e8b";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script> -->
-</head>
-<body>
-    
-<!-- header section starts  -->
-
-<header class="header">    
-  <a href="#home"><img src="../img/logo.png" width="80px" height="80px" style="margin-top: 35px;" alt=""> </a><a href="" style="margin-left: -320px; color: #F9DFBA; margin-top: 35px;"  class="logo"> JOGJA TREASURE</a>
-
-   <nav class="navbar">
-    <a href="../index.html">HOME</a>
-    <a href="#home">PRODUCT</a>
-    <a href="../about/about.html">ABOUT</a>
-    <a href="#BLOG">BLOG</a>
-    <a href="../index.html#contact">CONTACT</a>
-    <a href="../login/login.html">LOGIN</a>
-    <a href="../signup/signup.html">REGISTER</a> 
-   </nav>
-
-   <div id="menu-btn" class="fas fa-bars"></div>
-
-</header>
-
-<!-- header section ends -->
-
-<!-- home section starts  -->
-
-<section class="home mt-5" id="home">
-
-    <div class="rect">
-    </div>
-
-    <div class="container text-center">
-        <div class="row">
-          <div class="col-sm-8">
-            <h1>
-                KULINER
-            </h1>
-            <p>
-                KHAS YOGYAKARTA
-            </p>
-            <!-- <img src="../img/gudeg.png" alt=""> 
-            <h2>
-                Gudeg
-            </h2>
-            <p>
-                Hidangan ini terbuat dari nangka muda yang dimasak dalam santan dengan berbagai rempah-rempah seperti daun salam, serai, bawang merah, dan bawang putih. Rasanya manis dengan sedikit sentuhan pedas, dan biasanya disajikan dengan nasi, ayam, telur rebus, krecek (kulit sapi atau daging sapi yang direbus hingga kering), dan sambal
-            </p> -->
-          </div>
-          <div class="col-sm-4">
-            <div class="batik">
-            <h3>
-                Rekomendasi
-            </h3>
-            <p>
-                Batik
-            </p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Kuliner</title>
+  </head>
+  <body>
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href=" "><img src="img/logo.png" width="50PX" style="padding-right: 10px" />JOGJA TREASURE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/kerajinan/kerajinan.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Contact</a>
+            </li>
+            <div class="container">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn"  type="submit"><i class="bi bi-search"></i></button>
+              </form>
             </div>
-            <div class="kerajinan-tangan">
-                <h3>
-                    Rekomendasi
-                </h3>
-                <p>
-                    Kerajinan Tangan
-                </p>
+            <div>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="../login/login.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-person-circle" width="100px"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Login</a></li>
+                  <li><a class="dropdown-item" href="#">Register</a></li>
+                  
+                </ul>
+              </li>
+              
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
+    <div class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="../index2.html"><img src="../img/logo.png" width="50PX" style="padding-right: 10px" />JOGJA TREASURE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link " href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about/about.html">About</a>
+              </li>
+              <div class="dropdown ms-1 ">
+                <button class="btn btn-secondary dropdown-toggle me-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Product
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Kuliner</a></li>
+                  <li><a class="dropdown-item" href="batik.html">Batik</a></li>
+                  <li><a class="dropdown-item" href="../kerajinan/kerajinan.html">Kerajinan Tangan</a></li>
+                </ul>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="../index2.html#contact">Contact</a>
+              </li>
+              <div class="container">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                  <button class="btn"  type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div>
+              <div>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-person-circle" width="100px"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../login/login.html">Login</a></li>
+                    <li><a class="dropdown-item" href="../signup/signup.html">Register</a></li>
+                    
+                  </ul>
+                </li>
+                
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </div>
+
+    <section>
+      <div class="container">
+        <div class="judul-atas">
+          <div class="row">
+            <div class="col">
+              <h1>KULINER</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h5>KHAS YOGYAKARTA</h5>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
         <div class="row">
-          <div class="col-sm">
-            <img src="../img/gudeg.png" alt=""> 
-            <br><br><br>
-            <img src="../img/wedang tahu.png" alt="">
-            <br><br><br>
-            <img src="../img/Soto Kadipiro.png" alt="">
-            <br><br><br>
-            <img src="../img/Oseng-Oseng Mercon.png" alt="">
-            <br><br><br>
-            <img src="../img/Sate-sate Klathak.png" alt="">
-            <br><br><br>
-            <img src="../img/Kipo.png" alt="">
-          </div>
           
-          <!-- <div class="rect">
-
-          </div> -->
-
-          <div class="col-sm">
-            <h2>
-                Gudeg
-            </h2>
-            <p>
-                Hidangan ini terbuat dari nangka muda yang dimasak dalam santan dengan berbagai rempah-rempah seperti daun salam, serai, bawang merah, dan bawang putih. Rasanya manis dengan sedikit sentuhan pedas, dan biasanya disajikan dengan nasi, ayam, telur rebus, krecek (kulit sapi atau daging sapi yang direbus hingga kering), dan sambal
-            </p>
-            <!-- <a href="#" class="btn"> Selengkapnya </a> -->
-            <br><br><br><br><br><br><br><br><br><br>
-            <h2>
-                Wedang Tahu
-            </h2>
-            <p>
-                Hidangan tradisional Indonesia yang terdiri dari tahu yang dipotong kecil-kecil dan direbus dalam kuah khas. Kuahnya terbuat dari santan kelapa, gula merah, jahe, daun pandan, dan rempah-rempah lainnya
-            </p>
-            <!-- <a href="#" class="btn"> Selengkapnya </a> -->
-            <br><br><br><br><br><br><br><br><br><br> <br><br><br>
-            <h2>
-                Soto Kadipiro
-            </h2>
-            <p>
-                Hidangan sup khas Indonesia yang biasanya disajikan dengan kuah yang kental dan berbagai bahan tambahan, seperti daging, sayuran, dan bumbu-bumbu khas.
-            </p>
-            <!-- <a href="#" class="btn"> Selengkapnya </a> -->
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <h2>
-                Oseng-oseng Mercon
-            </h2>
-            <p>
-                Hidangan ini terbuat dari potongan daging sapi, ayam, atau seafood yang dimasak bersama bumbu-bumbu seperti cabai rawit, bawang putih, bawang merah, dan rempah-rempah lainnya.
-            </p>
-            <!-- <a href="#" class="btn"> Selengkapnya </a> -->
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-            <h2>
-                Sate Klathak
-            </h2>
-            <p>
-                Hidangan ini memiliki cita rasa khas, gurih, dan disajikan dengan lontong (nasi ketan), sambal, dan irisan bawang merah sebagai pendamping
-            </p>
-            <!-- <a href="#" class="btn"> Selengkapnya </a> -->
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <h2>
-                Kipo
-            </h2>
-            <p>
-                Hidangan ini terbuat dari campuran tepung ketan, gula, dan santan kelapa yang dibungkus dengan kulit tipis dari adonan tepung ketan yang berwarna hijau muda. Kipo biasanya berbentuk persegi panjang, memiliki rasa manis, serta tekstur yang lembut dan kenyal. Isian Kipo dapat bervariasi, termasuk kacang hijau, pasta durian, atau pasta gula kelapa.
-            </p>
-            <!-- <a href="#" class="btn"> Selengkapnya </a> -->
-          </div>
-          <div class="col-sm">
-            <div class="batik">
-            <img src="../img/Batik Tuntrum.png" alt="">
-            <h3 style="top: 5px;">
-                Batik <br> Truntum
-            </h3>
-            <img src="../img/Wahyu Tumururn.png" alt="">
-            <h3 style="top: -5px;">
-                Batik <br> Wahyu <br> Tumurun
-            </h3>
-            <img src="../img/Batik Kawung.png" alt="">
-            <h3 style="top: 5px;">
-                Batik <br> Kawung
-            </h3>
-            <img src="../img/Parangkusumo.png" alt="">
-            <h3 style="top: 5px;">
-                Batik <br> Parangkusumo
-            </h3>
-            <img src="../img/Ceplok kembang kates.png" alt="" >
-            <h3 style="top: -5px;">
-                Batik Ceplok <br> Kembang <br> Kates
-            </h3>
+            <div class="col-8">
+              <div class="kerajinan">
+              <div class="row">
+                <div class="col-5">
+                  <img src="../img/gudeg.png" alt="" width="300px" height="300px" />
+                </div>
+                <div class="col-7">
+                  <h1>Gudeg</h1>
+                  <h5>
+                    Hidangan ini terbuat dari nangka muda yang dimasak dalam santan dengan berbagai rempah-rempah seperti daun salam, serai, bawang merah, dan bawang putih. Rasanya manis dengan sedikit sentuhan pedas, dan biasanya disajikan dengan nasi, ayam, telur rebus, krecek (kulit sapi atau daging sapi yang direbus hingga kering), dan sambal
+                  </h5>
+                 <a href="../blog/blog.html"> <button type="button" class="btn">Selengkapnya</button></a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5">
+                  <img src="../img/wedang tahu.png" alt="" width="300px" height="300px" />
+                </div>
+                <div class="col-7">
+                  <h1>Wedang Tahu</h1>
+                  <h5>
+                    Hidangan tradisional Indonesia yang terdiri dari tahu yang dipotong kecil-kecil dan direbus dalam kuah khas. Kuahnya terbuat dari santan kelapa, gula merah, jahe, daun pandan, dan rempah-rempah lainnya
+                  </h5>
+                  <button type="button" class="btn">Selengkapnya</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5">
+                  <img src="../img/Soto Kadipiro.png" alt="" width="300px" height="300px" />
+                </div>
+                <div class="col-7">
+                  <h1>Soto Kadipiro</h1>
+                  <h5>
+                    Hidangan sup khas Indonesia yang biasanya disajikan dengan kuah yang kental dan berbagai bahan tambahan, seperti daging, sayuran, dan bumbu-bumbu khas.
+                  </h5>
+                  <button type="button" class="btn">Selengkapnya</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5">
+                  <img src="../img/Oseng-Oseng Mercon.png" alt="" width="300px" height="300px" />
+                </div>
+                <div class="col-7">
+                  <h1>Oseng-oseng Mercon</h1>
+                  <h5>
+                    Hidangan ini terbuat dari potongan daging sapi, ayam, atau seafood yang dimasak bersama bumbu-bumbu seperti cabai rawit, bawang putih, bawang merah, dan rempah-rempah lainnya.
+                  </h5>
+                  <button type="button" class="btn  ">Selengkapnya</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5">
+                  <img src="../img/Sate-sate Klathak.png" alt="" width="300px" height="300px" />
+                </div>
+                <div class="col-7">
+                  <h1>Sate Klathak</h1>
+                  <h5>
+                    Hidangan ini memiliki cita rasa khas, gurih, dan disajikan dengan lontong (nasi ketan), sambal, dan irisan bawang merah sebagai pendamping
+                  </h5>
+                  <button type="button" class="btn ">Selengkapnya</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-5">
+                  <img src="../img/Kipo.png" alt="" width="300px" height="300px" />
+                </div>
+                <div class="col-7">
+                  <h1>Kipo</h1>
+                  <h5>
+                    Hidangan ini terbuat dari campuran tepung ketan, gula, dan santan kelapa yang dibungkus dengan kulit tipis dari adonan tepung ketan yang berwarna hijau muda. Kipo biasanya berbentuk persegi panjang, memiliki rasa manis, serta tekstur yang lembut dan kenyal. Isian Kipo dapat bervariasi, termasuk kacang hijau, pasta durian, atau pasta gula kelapa.
+                  </h5>
+                  <button type="button" class="btn ">Selengkapnya</button>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="col-4">
+            <div class="row">
+              <div class="col-1">
+                <div class="rectangle"></div>
+                
+              </div>
+              <div class="col-11 ">
+                <div class="rekomendasi">
+                  <h1>Rekomendasi</h1>
+                  <h3>
+                    Batik
+                  </h3>
+                  <div class="row text-center">
+                    <div class="col-6">
+                      <img src="../img/Batik Tuntrum.png" alt="" width="150px" height="150px" style="margin-right: 100px;">
+                    </div>
+                    <div class="col-6 align-self-center">
+                      <p>Batik Truntum</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <img src="../img/Wahyu Tumururn.png" alt="" width="150px" height="150px">
+                    </div>
+                    <div class="col-6 align-self-center">
+                      <p>Batik Wahyu<br>Tumurun</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <img src="../img/Batik Kawung.png" alt="" width="150px" height="150px">
+                    </div>
+                    <div class="col-6 align-self-center">
+                      <p>Batik Kawung</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <img src="../img/Parangkusumo.png" alt="" width="150px" height="150px">
+                    </div>
+                    <div class="col-6 align-self-center">
+                      <p>Batik Parangkusumo</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <img src="../img/Ceplok kembang kates.png" alt="" width="150px" height="150px">
+                    </div>
+                    <div class="col-6 align-self-center">
+                      <p>Batik Ceplok Kembang Kates</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="rekomendasi">
+                  <h1>Rekomendasi</h1>
+                  <h3>
+                    Kerajinan Tangan
+                  </h3>
+                  <div class="row">
+                    <div class="col-6">
+                      <img src="../img/Blangkon.png" alt="" width="150px" height="150px">
+                    </div>
+                    <div class="col-6 align-self-center">
+                      <p>Blangkon</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <img src="../img/Surjan.png" alt="" width="150px" height="150px">
+                    </div>
+                    <div class="col-6 align-self-center">
+                      <p>Surjan</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <img src="../img/Anyaman.png" alt="" width="150px" height="150px">
+                    </div>
+                    <div class="col-6 align-self-center">
+                      <p>Anyaman</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 ">
+                      <img src="../img/Miniatur.png" alt="" width="150px" height="150px">
+                    </div>
+                    <div class="col-6 align-self-center">
+                      <p>Miniatur</p>
+                    </div>
+                  </div>
+                  
+                </div>  
+
+              </div>
+            </div>
+
             
-            <div class="kerajinan-tangan">
-                <img src="../img/Blangkon.png" alt="">
-                <h3>
-                    Blangkon
-                </h3>
-                <img src="../img/Surjan.png" alt="">
-                <h3>
-                    Surjan
-                </h3>
-                <img src="../img/Anyaman.png" alt="">
-                <h3>
-                    Anyaman
-                </h3>
-                <img src="../img/Miniatur.png" alt="">
-                <h3>
-                    Miniatur
-                </h3>
+
+              
+            </div>
+           
+
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-</section>
 
-<!-- home section ends -->
-
-<!-- Section Commnets Starts -->
-
-<section class="comments ">
-
-    <div class="container text-center border">
-        <h2>
-            Comments
-        </h2>
-        <div class="row row-cols-2">
-          <div class="col">
-            <div class="profil">
-            <img src="../img/image 15.png" alt="">
-            <br><br><br>
-            <img src="../img/image 16.png" alt="">
-            <br><br><br>
-            <img src="../img/image 17.png" alt="">
-            <br><br><br>
-            <img src="../img/image 18.png" alt="">
+    <section>
+      <div class="container">
+      <div class="row">
+        <div class="col border">
+          <!-- <div class="rectangle1"> -->
+            <div class="row">
+              <P class="komen">Coments</P>
             </div>
-          </div>
-          <div class="col">
-            <div class="username" style="margin-bottom: 150px;">
-                <h3>
-                    @vdth.chrln
-                </h3>
-                <p>
-                    Baru pertama kali ke jogja dan ga tau apa-apa tentang jogja, eh pas lagi buka internet nemu web satu ini. Jogja Treasure the best siiiiii. Jdi ga perlu pusing lagi deh nyariin rekomendasi apapun tentang jogja. 
-                </p>
-                <br><br>
-                <h3 style="top: 20px;">
-                    @jeljel.id
-                </h3>
-                <p style="top: 25px;">
-                    Lagi kepengen bgt makan, tapi bingung mau makan apa. Pas iseng buka google nemu jogja treasure isinya rekomendasi berbagai macam makanan di jogja. Aaaaa seneng bgtttttt {}
-                </p>
-                <br><br>
-                <h3 style="top: 35px;">
-                    @anggi_sr
-                </h3>
-                <p style="top: 35px;">
-                    aku merasa beruntung bagette menemukan web jogja treasur ini. Dikarenakan  panduan kuliner yang sangat berguna untuk wisatawan bagi saya yang berkunjung ke Jogja
-                </p>
-                <br><br>
-                <h3 style="top: 50px;">
-                    @tofanabidin_
-                </h3>
-                <p style="top: 50px;">
-                    Website ini sangat informatif! Saya menemukan banyak tempat makan enak di Jogja berkat informasi yang diberikan di sini ini sangat berguna bagi saya yang sebagai pendatang di jogja. 
-                </p>
+            <div class="row p-1">
+              <div class="col-3">
+                <div class="profil">
+                <img src="../img/image 15.png" alt="" width="100px">
+                </div>
+              </div>
+              <div class="col-8 ">
+                <div class="row">
+                  <p class="jkomen">@vdth.chrln</p>
+                </div>
+                <div class="row">
+                  <p class="isikomen">Baru pertama kali ke jogja dan ga tau apa-apa tentang jogja, eh pas lagi buka internet nemu web satu ini. Jogja Treasure the best siiiiii. Jdi ga perlu pusing lagi deh nyariin rekomendasi apapun tentang jogja.  
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
+
+            <div class="row p-1">
+              <div class="col-3">
+                <div class="profil">
+                <img src="../img/image 16.png" alt="" width="100px">
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="row">
+                  <p class="jkomen">@jeljel.id</p>
+                </div>
+                <div class="row">
+                  <p class="isikomen">                  
+                    Lagi kepengen bgt makan, tapi bingung mau makan apa. Pas iseng buka google nemu jogja treasure isinya rekomendasi berbagai macam makanan di jogja. Aaaaa seneng bgtttttt
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row p-1">
+              <div class="col-3">
+                <div class="profil">
+                <img src="../img/image 17.png" alt="" width="100px">
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="row">
+                  <p class="jkomen">@anggi.sr</p>
+                </div>
+                <div class="row">
+                  <p class="isikomen">                  
+                    aku merasa beruntung bagette menemukan web jogja treasur ini. Dikarenakan  panduan kuliner yang sangat berguna untuk wisatawan bagi saya yang berkunjung ke Jogja   
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row p-1">
+              <div class="col-3">
+                <div class="profil">
+                <img src="../img/image 18.png" alt="" width="100px">
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="row">
+                  <p class="jkomen">@tofanabidin_</p>
+                </div>
+                <div class="row">
+                  <p class="isikomen">                  
+                    Website ini sangat informatif! Saya menemukan banyak tempat makan enak di Jogja berkat informasi yang diberikan di sini ini sangat berguna bagi saya yang sebagai pendatang di jogja.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            
+
+          <!-- </div> -->
         </div>
+        
       </div>
 
-</section>
+     
 
-<!-- footer section starts  -->
-
-<section class="footer">
-
-    <div class="container text-center">
-      <div class="row row-cols-2">
-        <div class="col mt-5">
-          <h3>JOGJA TREASURE</h3>
-        </div>
-        <div class="col mt-5">
-          <a href=""> <i class="fa fa-map-marker"></i> Yogyakarta, Kota Yogyakarta, Daerah Istimewa Yogyakarta</a>
-        </div>
-        <div class="col">
-          <h4>
-            Dengan setiap produk, kami bawa kepingan Jogja ke dalam hidup anda.
-          </h4>
-        </div>
-        <div class="col">
-          <div class="social-icons mt-5">
-          <a href="" class="me-3"> <i class="fa fa-whatsapp" ></i></a>
-          <a href="" class="me-3"> <i class="fa fa-facebook"></i></a>
-          <a href="" class="me-3"> <i class="fa fa-instagram"></i></a>
-          <a href="" class="me-3"> <i class="fa fa-youtube-play"></i></a>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <div class="credit"> created by <span>Group 8 Web Development | Class A Afternoon</span> | all rights reserved </div>
+    </section>
 
-</section>
 
-<!-- footer section ends -->
 
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
 
-</body>
+
+    <footer>
+      <section class="footer">
+
+        <div class="container ">
+          <div class="row">
+            <div class="col-3">
+              JOGJA TREASURE
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              
+              Dengan setiap produk, kami bawa kepingan Jogja ke dalam hidup anda. 
+            </div>
+            <div class="col-3">
+
+            </div>
+            <div class="col-5 ">
+              <i class="bi bi-geo-alt-fill"></i>
+              Yogyakarta, Kota Yogyakarta, Daerah Istimewa Yogyakarta
+              <div class="socialmedia text-center">
+                <a href="" class="me-3"> <i class="bi bi-whatsapp" ></i></a>
+                <a href="" class="me-3"> <i class="bi bi-facebook"></i></a>
+                <a href="" class="me-3"> <i class="bi bi-instagram"></i></a>
+                <a href="" class="me-3"> <i class="bi bi-youtube"></i></a>
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+    
+        <div class="credit"> created by <span>Group 8 Web Development | Class A Afternoon</span> | all rights reserved </div>
+    
+    </section>
+    </footer>
+  </body>
 </html>

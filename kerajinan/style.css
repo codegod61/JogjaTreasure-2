@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
   background-color: #f9dfba;
 }
@@ -5,6 +7,13 @@ body {
 .navbar {
   background-color: #884b39;
 }
+
+.header .navbar .dropdown .btn
+{
+    color: #F9DFBA;
+    background-color: #884B39;
+    
+} 
 
 footer {
   padding: 20px;
@@ -15,13 +24,22 @@ footer {
 footer .judul {
   color: #ffc26f;
 }
-.judul-atas {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+.judul-atas h1{
+  text-shadow: 1px 1px 10px black;
   padding-top: 5rem;
   padding-bottom: 2rem;
-  color: #ffc26f;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #FFC26F;
+  font-family: "Poppins" ,sans-serif;
+  font-size: 70px;
+  font-weight: bolder;
 }
+.judul-atas  h5{
+  color: #C48154;
+  font-family: 'poppins';
+  font-weight: bold;
+  margin-top: -30px;
+  margin-bottom: 30px;
+} 
 
 .kerajinan {
   text-align: justify;
@@ -33,13 +51,15 @@ footer .judul {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .kerajinan h5 {
-  color: #884b39;
+  color: #C48154;
   font-size: medium;
+  font-weight: bold;
 }
 
 .kerajinan .btn {
   background-color: #c48154;
   color: #fff;
+  border-radius: 50px;
 }
 
 .rectangle {
@@ -68,14 +88,16 @@ h2 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 900;
+  text-align: left;
 }
 
-.rectangle1 {
+.border {
   width: auto;
   height: 600px;
   flex-shrink: 0;
   background: #c48154;
   box-shadow: 5px 5px 39px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
 }
 
 .komen {

@@ -1,6 +1,14 @@
-.navbar {
+
+.header .navbar {
   background-color: #884b39;
 }
+
+.header .navbar .dropdown .btn
+{
+    color: #F9DFBA;
+    background-color: #884B39;
+    
+} 
 
 #blog {
   font-family: "inter", sans-serif;

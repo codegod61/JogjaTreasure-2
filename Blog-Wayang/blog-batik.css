@@ -1,0 +1,58 @@
+
+.header .navbar {
+    background-color: #884b39;
+}
+
+.header .navbar .dropdown .btn
+{
+    color: #F9DFBA;
+    background-color: #884B39;
+    
+} 
+  
+  #blog {
+    font-family: "inter", sans-serif;
+    text-align: justify;
+    color: #c48154;
+    background-color: #f9dfba;
+    padding-top: 100px;
+  }
+  
+  .footer {
+    background-color: #884b39;
+    color: #f9dfba;
+  }
+  
+  .footer .credit {
+    padding: 1rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #ffffff;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer .credit span {
+    color: #f9dfba;
+  }
+  
+  .footer .row .col-3 {
+    padding-top: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #ffc26f;
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  
+  .bi {
+    color: #f9dfba;
+    font-size: 20px;
+  }
+  
+  .info .bi {
+    color: #884b39;
+    font-size: 40px;
+  }
+  

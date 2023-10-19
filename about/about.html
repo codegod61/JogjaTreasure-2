@@ -16,7 +16,7 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="../css/about.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     
 <!-- <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="c6c8b631-c25b-41e7-8fa6-6b1cd43c9e8b";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script> -->
 </head>
@@ -24,28 +24,64 @@
     
 <!-- header section starts  -->
 
-<header class="header">    
-   <a href="#home"><img src="../img/logo.png" width="80px" height="80px" style="margin-top: 35px;" alt=""> </a><a href="" style="margin-left: -320px; color: #F9DFBA; margin-top: 35px;"  class="logo"> JOGJA TREASURE</a>
-
-    <nav class="navbar">
-        <a href="../index.html">HOME</a>
-        <a href="../product/kuliner.html">PRODUCT</a>
-        <a href="#home">ABOUT</a>
-        <a href="#BLOG">BLOG</a>
-        <a href="../index.html#contact">CONTACT</a>
-        <a href="../login/login.html">LOGIN</a>
-        <a href="../signup/signup.html">REGISTER</a>
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="../index2.html"><img src="../img/logo.png" width="50PX" style="padding-right: 10px" />JOGJA TREASURE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="../index2.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <div class="dropdown ms-1">
+              <button class="btn btn-secondary dropdown-toggle me-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Product
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../product/kuliner.html">Kuliner</a></li>
+                <li><a class="dropdown-item" href="../product/batik.html">Batik</a></li>
+                <li><a class="dropdown-item" href="../kerajinan/kerajinan.html">Kerajinan Tangan</a></li>
+              </ul>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link" href="../index2.html#contact">Contact</a>
+            </li>
+            <div class="container">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn"  type="submit"><i class="bi bi-search"></i></button>
+              </form>
+            </div>
+            <div>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-person-circle" width="100px"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../login/login.html">Login</a></li>
+                  <li><a class="dropdown-item" href="../signup/signup.html">Register</a></li>
+                  
+                </ul>
+              </li>
+              
+            </div>
+          </ul>
+        </div>
+      </div>
     </nav>
-
-    <div id="menu-btn" class="fas fa-bars"></div>
-
-</header>
+    </div>
 
 <!-- header section ends -->
 
 <!-- home section starts  -->
 
-<section class="home" id="home">
+<section class="home " id="home">
 
     <div class="image">
         <img src="../img/about_desc.png" alt="" style="">
@@ -210,31 +246,10 @@
       </div>
     </div>
 
-    <div class="credit"> created by <span>Group 8 Web Development | Class A Afternoon</span> | all rights reserved </div>
-
 </section>
 
 <!-- footer section ends -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
 
 </body>
 </html>
